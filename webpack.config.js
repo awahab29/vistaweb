@@ -14,7 +14,7 @@ module.exports = {
   cache: true,
   entry: {
     common: ['react', 'react-router', 'alt'],
-    module: path.join(srcPath, 'App.js')
+    app: path.join(srcPath, 'App.js')
   },
   resolve: {
     root: srcPath,
@@ -22,7 +22,7 @@ module.exports = {
     modulesDirectories: ['node_modules']
   },
   output: {
-    path: path.join(__dirname, 'tmp'),
+    path: path.join(__dirname, 'build'),
     publicPath: '',
     filename: '[name].js',
     library: ['Example', '[name]'],
@@ -66,7 +66,7 @@ module.exports = {
   ],
 
   debug: true,
-  devtool: 'eval-source-map',//'eval-cheap-module-source-map',
+  //devtool: 'eval-source-map',//'eval-cheap-module-source-map',
   devServer: {
     contentBase: './tmp',
     historyApiFallback: true
