@@ -13,7 +13,7 @@ module.exports = {
   target: 'web',
   cache: true,
   entry: {
-    common: ['react', 'react-router', 'alt'],
+    common: ['react', 'react-router', 'alt', 'es6-promise'],
     app: path.join(srcPath, 'App.js')
   },
   resolve: {

@@ -17,6 +17,7 @@
     "alt-container": "^1.0.0",
     "body-parser": "^1.14.2",
     "can-use-dom": "^0.1.0",
+    "es6-promise": "^3.0.2",
     "google-map-react": "^0.10.3",
     "google-maps-infobox": "^1.1.13",
     "history": "^1.17.0",
