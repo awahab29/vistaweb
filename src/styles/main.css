@@ -1,0 +1,36 @@
+body {
+}
+.box {
+    width:100px;
+    display:box;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    /* W3C */
+    display:box;
+    box-orient:horizontal;
+}
+
+.box .column1 {
+    -moz-box-flex:1.0; /* Firefox */
+    -webkit-box-flex:1.0; /* Safari and Chrome */
+    -ms-flex:1.0; /* Internet Explorer 10 */
+    box-flex:1.0;
+}
+
+.box .column2 {
+    height:100px;
+    -moz-box-flex:1.0; /* Firefox */
+    -webkit-box-flex:1.0; /* Safari and Chrome */
+    -ms-flex:1.0; /* Internet Explorer 10 */
+    box-flex:1.0;
+    background: green;
+}
+.map {
+    height:1000px;
+    width:1000px;
+
+}
