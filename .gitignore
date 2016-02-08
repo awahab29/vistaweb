@@ -1,0 +1,5 @@
+node_modules
+build/app.js
+tmp
+.idea
+*.log.1821638406
