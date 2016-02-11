@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: "style-loader!css-loader"
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/,
@@ -62,7 +62,10 @@ module.exports = {
       url: 'http://localhost:8080',
       browser: 'Chrome'
     }),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new ExtractTextPlugin("style.css", {
+      allChunks: true
+    })
 
     //new webpack.optimize.UglifyJsPlugin({ //enable it for minification
     //  compress: {
