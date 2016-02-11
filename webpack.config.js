@@ -38,11 +38,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: "style-loader!css-loader"
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/,
-        loader: 'url-loader'
+        loader: 'url-loader?limit=8192' // inline base64 URLs for <=8k images, direct URLs for the rest
       }
     ],
     
@@ -62,13 +62,22 @@ module.exports = {
       url: 'http://localhost:8080',
       browser: 'Chrome'
     }),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new ExtractTextPlugin("style.css", {
+      allChunks: true
+    })
+
+    //new webpack.optimize.UglifyJsPlugin({ //enable it for minification
+    //  compress: {
+    //    warnings: false
+    //  }
+    //})
   ],
 
   debug: true,
   //devtool: 'eval-source-map',//'eval-cheap-module-source-map',
   devServer: {
-    contentBase: './tmp',
+    contentBase: './build',
     historyApiFallback: true
   }
 };

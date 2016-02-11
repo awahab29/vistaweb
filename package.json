@@ -7,6 +7,7 @@
     "dev": "webpack-dev-server --colors --watch",
     "watch": "webpack-dev-server --hot --inline --progress --colors",
     "build": "webpack --progress --profile --colors",
+    "release": "webpack -p --progress --profile --colors",
     "start": "npm run watch",
     "test": "jest"
   },
@@ -34,7 +35,7 @@
     "react-lazy-cache": "^3.0.1",
     "react-localstorage": "^0.2.8",
     "react-pure-render": "^1.0.2",
-    "react-router": "^1.0.3",
+    "react-router": "^2.0.0",
     "react-tap-event-plugin": "^0.2.1",
     "xml": "^1.0.0",
     "xml2js": "^0.4.15"
