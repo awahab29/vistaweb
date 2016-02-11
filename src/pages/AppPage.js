@@ -8,13 +8,11 @@ import NavigationBack from 'material-ui/lib/svg-icons/navigation/arrow-back';
 import FlatButton from 'material-ui/lib/flat-button';
 import AppBar from 'material-ui/lib/app-bar';
 
-import {History} from 'react-router';
-
 const AppPage = React.createClass({
   handleTouchTap :function(evt)  {
-    this.history.goBack()
+    window.location.href = 'home';
   },
-  mixins: [ History ],
+
   render() {
     return (
         <div >

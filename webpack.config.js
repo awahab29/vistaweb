@@ -59,7 +59,7 @@ module.exports = {
       template: 'src/index.html'
     }),
     new OpenBrowserPlugin({
-      url: 'http://localhost:8030',
+      url: 'http://localhost:8080',
       browser: 'Chrome'
     }),
     new webpack.NoErrorsPlugin(),

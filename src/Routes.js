@@ -16,10 +16,12 @@ import Directions  from './components/RouteMap';
 import Arithmetic  from './components/cacheComp';
 import AuthorizedView from './components/AuthorizedView'
 import AppPage  from './pages/AppPage';
-import DateTime from './components/DateTimePicker.js'
-import BookAFlightForm from './components/BookAFlightForm'
+import DateTime from './components/DateTimePicker.js';
+import BookAFlightForm from './components/BookAFlightForm';
+import { browserHistory  } from 'react-router';
 
-const Routes = (<Router>
+const Routes = (
+<Router  history={browserHistory }>
   <Route path="/" component={AppPage}>
     <IndexRoute component={Home}/>
     <Route path="home" component={Home} />
@@ -33,7 +35,9 @@ const Routes = (<Router>
     <Route path="journeys" component={JourneysListing}/>
     <Route path="auth" component={AuthorizedView}/>
     <Route path="date-time" component={DateTime}/>
-    <Route path="baf" component={BookAFlightForm}/>
+    <Route path="baf" component={BookAFlightForm}>
+      <Route path="/auth" component={AuthorizedView} />
+    </Route >
 
   </Route>
 </Router>);

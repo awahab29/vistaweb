@@ -31,7 +31,7 @@ var LocationSource = {
       },
 
       local() {
-        // Never check locally, always fetch remotely.
+        console.log('local check');
         return null;
       },
 
