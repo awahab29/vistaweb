@@ -30,21 +30,25 @@ export default class SimpleMapPage extends React.Component {
 	shouldComponentUpdate = shouldPureComponentUpdate;
 
 	constructor(props) {
+      var geodesicPoly;
 		super(props);
 	}
+  update() {
+    //var {markers} = this.props;
+
+    console.log(this.props.markers[0].lat);
+    var path = [new google.maps.LatLng(this.props.markers[0].lat,this.props.markers[0].lng),
+      new google.maps.LatLng(this.props.markers[1].lat,this.props.markers[1].lng)];
+    //poly.setPath(path);
+    this.geodesicPoly.setPath(path);
+    //var heading = google.maps.geometry.spherical.computeHeading(path[0], path[1]);
+  }
 
 	/*<MyGreatPlace lat={59.955413} lng={30.337844} text={'A'} /!* Kreyser Avrora *!/ />
 	 <MyGreatPlace {...this.props.greatPlaceCoords} text={'B'} /!* road circle *!/ />*/
 	render() {
 		var marker1, marker2;
-		var poly, geodesicPoly;
 
-		function update() {
-			var path = [marker1.getPosition(), marker2.getPosition()];
-			//poly.setPath(path);
-			geodesicPoly.setPath(path);
-			//var heading = google.maps.geometry.spherical.computeHeading(path[0], path[1]);
-		}
 
 
 		return (
@@ -52,7 +56,16 @@ export default class SimpleMapPage extends React.Component {
 				<GoogleMap
           YesIWantToUseGoogleMapApiInternals={true}
 					onGoogleApiLoaded={({map, maps}) => {
+                  this.geodesicPoly = new maps.Polyline({
+                  strokeColor: '#CC0099',
+                  strokeOpacity: 1.0,
+                  strokeWeight: 3,
+                  geodesic: true,
+                  map: map
+                 });
 
+
+                this.update();
 
                 /*map.controls[google.maps.ControlPosition.TOP_CENTER].push(
                     document.getElementById('info'));*/
@@ -128,7 +141,7 @@ export default class SimpleMapPage extends React.Component {
           {
             this.props.markers.map((marker, index) => {
               return (
-                <MyGreatPlace key={index} lat={marker.lat} lng={marker.lng} text={'A'} />
+                <MyGreatPlace key={index} lat={marker.lat} lng={marker.lng} text={marker.name} />
                 )
 
             })
