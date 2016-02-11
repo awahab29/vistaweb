@@ -6,7 +6,7 @@ import {Link} from 'react-router';
 import RaisedButton from 'material-ui/lib/raised-button';
 class Home extends React.Component {
   render() {
-
+    var heart = (<img src={require('../images/VistaJet.jpg')} />);
     return (
         <div>
           <Link to="/location">
@@ -39,7 +39,7 @@ class Home extends React.Component {
           <Link to="/baf">
             <RaisedButton secondary={true} label="Book A Flight Form"/>
           </Link>
-
+          <div>{heart}</div>
 
         </div>
 
