@@ -63,6 +63,12 @@ module.exports = {
       browser: 'Chrome'
     }),
     new webpack.NoErrorsPlugin()
+
+    //new webpack.optimize.UglifyJsPlugin({ //enable it for minification
+    //  compress: {
+    //    warnings: false
+    //  }
+    //})
   ],
 
   debug: true,
