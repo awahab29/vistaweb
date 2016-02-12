@@ -1,0 +1,35 @@
+<vjResponse>
+    <success>true</success>
+    <mustChangePassword>false</mustChangePassword>
+    <authenticatedUser>
+        <id></id>
+        <firstName></firstName>
+        <middleName></middleName>
+        <lastName></lastName>
+        <gender></gender>
+        <salutation></salutation>
+        <personId></personId>
+        <accessType></accessType> <!-- 0 for not linked to any account, 1 for linked with FSP/others, 2 for linked with OD account -->
+        <imageURL></imageURL>
+        <nationalityId></nationalityId>
+        <passport>
+            <id></id>
+            <passportNumber></passportNumber>
+            <issuedByCountry></issuedByCountry>
+            <passportCountry></passportCountry>
+            <isInvalid></isInvalid>
+        </passport>
+        <userPreferences>
+            <key></key>
+            <value></value>
+        </userPreferences>
+        <userPreferences>
+            <key></key>
+            <value></value>
+        </userPreferences>
+        <userPreferences>
+            <key></key>
+            <value></value>
+        </userPreferences>
+    </authenticatedUser>
+</vjResponse>

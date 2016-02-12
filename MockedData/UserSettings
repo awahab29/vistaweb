@@ -1,0 +1,14 @@
+<restCustomerAppSettingDtoes>
+    <setting>
+        <key>color</key>
+        <value>blue</value>
+    </setting>
+    <setting>
+        <key>template</key>
+        <value>default</value>
+    </setting>
+    <setting>
+        <key>language</key>
+        <value>en-us</value>
+    </setting>
+</restCustomerAppSettingDtoes>

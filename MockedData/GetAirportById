@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listOfAirports>
+    <airport>
+        <id>2801</id>
+        <icao>UUWW</icao>
+        <iata>VKO</iata>
+        <iso3>RUS</iso3>
+        <name>VNUKOVO</name>
+        <iso2>RU-MOS</iso2>
+        <city>MOSCOW</city>
+        <country>RUSSIA</country>
+        <latitude>37.273056</latitude>
+        <longitude>55.599167</longitude>
+        <itineraryAirportName>Vnukovo UUWW</itineraryAirportName>
+        <timezones>
+            <timezone>
+                <dstUtcOffset>0</dstUtcOffset>
+                <effectiveFromTimeUtc>2015-03-27T00:00:00+05:00</effectiveFromTimeUtc>
+                <effectiveToTimeUtc>2016-03-26T00:00:00+05:00</effectiveToTimeUtc>
+                <standardUtcOffsetMinutes>180</standardUtcOffsetMinutes>
+            </timezone>
+        </timezones>
+        <airportCount>-1</airportCount>
+        <lastUpdatedTime>1444432217384</lastUpdatedTime>
+    </airport>
+    <hasMore>false</hasMore>
+</listOfAirports>

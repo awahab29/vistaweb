@@ -39,6 +39,9 @@ class Home extends React.Component {
           <Link to="/baf">
             <RaisedButton secondary={true} label="Book A Flight Form"/>
           </Link>
+          <Link to="/vjInfo">
+            <RaisedButton secondary={true} label="VistaJet Info"/>
+          </Link>
           <div>{heart}</div>
 
         </div>

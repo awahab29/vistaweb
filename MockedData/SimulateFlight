@@ -1,0 +1,23 @@
+<!--
+    Warning level of airport is a set of flags that indicates if the airport has any problem in the time of occurrence of the event (departure or arrival).
+      
+    value|description
+        0|None
+        1|Runway is too short for take off or landing of the selected aircraft type
+        2|(Reserved for future use)
+        4|Any other warning in the airport (reported by the airport)
+          
+    These flags are bitwise-OR complement
+-->
+<flightSimulationResult>
+    <departureAirportId>699</departureAirportId>
+    <departureAirportWarningLevel>0</departureAirportWarningLevel>
+    <arrivalAirportId>2801</arrivalAirportId>
+    <arrivalAirportWarningLevel>0</arrivalAirportWarningLevel>
+    <numberOfPassenger>3</numberOfPassenger>
+    <departureTimeLocal>2014-10-31T02:00:00Z</departureTimeLocal>
+    <departureTimeUtc>2014-10-31T02:00:00Z</departureTimeUtc>
+    <arrivalTimeLocal>2014-10-31T05:00:00Z</arrivalTimeLocal>
+    <arrivalTimeUtc>2014-10-31T05:00:00Z</arrivalTimeUtc>
+    <aircraftType>CL605</aircraftType>
+</flightSimulationResult>

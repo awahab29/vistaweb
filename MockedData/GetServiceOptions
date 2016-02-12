@@ -1,0 +1,12 @@
+<cateringResponse>
+    <cateringModuleState>
+        <legId>560506</legId>
+        <stateId>11</stateId>
+        <stateName>Flight Cancelled - Catering Cancelled</stateName>
+    </cateringModuleState>
+    <cateringModuleState>
+        <legId>560504</legId>
+        <stateId>8</stateId>
+        <stateName>Catering Confirmed</stateName>
+    </cateringModuleState>
+</cateringResponse>

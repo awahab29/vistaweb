@@ -1,0 +1,221 @@
+<cateringModuleDetail>
+   <orSupplierList>
+      <orderRequestSupplier>
+         <orCategoryList>
+            <orderRequestCategory>
+               <cateringCategory>Starter</cateringCategory>
+               <id>1</id>
+               <orList>
+                  <orderRequest>
+                     <cateringType>Starter-Meat</cateringType>
+                     <description>Thinkly Sliced Pressed Octopus with Hom-made Pickled Vegetables</description>
+                     <id>10682</id>
+                     <orSelectionList>
+                        <orderRequestSelection>
+                           <id>15372</id>
+                           <leadPassenger>false</leadPassenger>
+                           <passengerItemId>72958</passengerItemId>
+                           <paxName>JOHN 496917 DOE 930039</paxName>
+                           <personId>54987</personId>
+                           <quantity>1</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15371</id>
+                           <leadPassenger>true</leadPassenger>
+                           <passengerItemId>72957</passengerItemId>
+                           <paxName>JOHN 431215 DOE 85180</paxName>
+                           <personId>7271</personId>
+                           <quantity>3</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15373</id>
+                           <quantity>0</quantity>
+                           <toShare>true</toShare>
+                        </orderRequestSelection>
+                     </orSelectionList>
+                     <title>Polpo alla Pressa con Giardiniera di Vegetali</title>
+                  </orderRequest>
+               </orList>
+               <rank>18</rank>
+            </orderRequestCategory>
+            <orderRequestCategory>
+               <cateringCategory>Main</cateringCategory>
+               <id>6</id>
+               <orList>
+                  <orderRequest>
+                     <cateringType>Main-Meat</cateringType>
+                     <description>Traditional Beef Ragout Lasagne</description>
+                     <id>10686</id>
+                     <orSelectionList>
+                        <orderRequestSelection>
+                           <id>15375</id>
+                           <leadPassenger>false</leadPassenger>
+                           <passengerItemId>72958</passengerItemId>
+                           <paxName>JOHN 496917 DOE 930039</paxName>
+                           <personId>54987</personId>
+                           <quantity>2</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15374</id>
+                           <leadPassenger>true</leadPassenger>
+                           <passengerItemId>72957</passengerItemId>
+                           <paxName>JOHN 431215 DOE 85180</paxName>
+                           <personId>7271</personId>
+                           <quantity>2</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15376</id>
+                           <quantity>2</quantity>
+                           <toShare>true</toShare>
+                        </orderRequestSelection>
+                     </orSelectionList>
+                     <title>Lasagna Tradizionale</title>
+                  </orderRequest>
+                  <orderRequest>
+                     <cateringType>Main-Meat</cateringType>
+                     <description>Trofie Pasta with Amatriciana Sauce - Tomato Sauce with Onions, Bacon &amp; Peccorino Cheese</description>
+                     <id>10685</id>
+                     <orSelectionList/>
+                     <title>Trofie con Pesto Genovese, Patate e Fagiolini</title>
+                  </orderRequest>
+               </orList>
+               <rank>24</rank>
+            </orderRequestCategory>
+            <orderRequestCategory>
+               <cateringCategory>Side</cateringCategory>
+               <id>10</id>
+               <orList>
+                  <orderRequest>
+                     <cateringType>Side-Meat</cateringType>
+                     <description>Boiled Vegetables (Potatoes, Carrot &amp; Courgette)</description>
+                     <id>10690</id>
+                     <orSelectionList/>
+                     <title>Boiled Vegetables - Potato, Carrot, Courgette</title>
+                  </orderRequest>
+                  <orderRequest>
+                     <cateringType>Side-Meat</cateringType>
+                     <description>Steamed Green Beans</description>
+                     <id>10681</id>
+                     <orSelectionList/>
+                     <title>Steamed Green Beans</title>
+                  </orderRequest>
+               </orList>
+               <rank>32</rank>
+            </orderRequestCategory>
+         </orCategoryList>
+         <serviceProviderId>136691</serviceProviderId>
+         <supplierName>Il Baretto</supplierName>
+         <supplierDisplayName>Il Baretto</supplierDisplayName>
+      </orderRequestSupplier>
+      <orderRequestSupplier>
+         <orCategoryList>
+            <orderRequestCategory>
+               <cateringCategory>Snack</cateringCategory>
+               <id>3</id>
+               <orList>
+                  <orderRequest>
+                     <cateringType>Snack</cateringType>
+                     <id>10683</id>
+                     <orSelectionList>
+                        <orderRequestSelection>
+                           <id>15366</id>
+                           <leadPassenger>false</leadPassenger>
+                           <passengerItemId>72958</passengerItemId>
+                           <paxName>JOHN 496917 DOE 930039</paxName>
+                           <personId>54987</personId>
+                           <quantity>4</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15365</id>
+                           <leadPassenger>true</leadPassenger>
+                           <passengerItemId>72957</passengerItemId>
+                           <paxName>JOHN 431215 DOE 85180</paxName>
+                           <personId>7271</personId>
+                           <quantity>4</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15367</id>
+                           <quantity>1</quantity>
+                           <toShare>true</toShare>
+                        </orderRequestSelection>
+                     </orSelectionList>
+                     <title>Baby brioche filled with wild mushrooms &amp; lemon hollandaise (piece)</title>
+                  </orderRequest>
+               </orList>
+               <rank>3</rank>
+            </orderRequestCategory>
+            <orderRequestCategory>
+               <cateringCategory>Platter</cateringCategory>
+               <id>9</id>
+               <orList>
+                  <orderRequest>
+                     <cateringType>Platter-Meat</cateringType>
+                     <id>10688</id>
+                     <orSelectionList>
+                        <orderRequestSelection>
+                           <id>15369</id>
+                           <leadPassenger>false</leadPassenger>
+                           <passengerItemId>72958</passengerItemId>
+                           <paxName>JOHN 496917 DOE 930039</paxName>
+                           <personId>54987</personId>
+                           <quantity>2</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15368</id>
+                           <leadPassenger>true</leadPassenger>
+                           <passengerItemId>72957</passengerItemId>
+                           <paxName>JOHN 431215 DOE 85180</paxName>
+                           <personId>7271</personId>
+                           <quantity>2</quantity>
+                           <toShare>false</toShare>
+                        </orderRequestSelection>
+                        <orderRequestSelection>
+                           <id>15370</id>
+                           <quantity>0</quantity>
+                           <toShare>true</toShare>
+                        </orderRequestSelection>
+                     </orSelectionList>
+                     <title>Sandwich platter</title>
+                  </orderRequest>
+                  <orderRequest>
+                     <cateringType>Platter-Breakfast</cateringType>
+                     <id>10689</id>
+                     <orSelectionList/>
+                     <title>Smoked salmon platter</title>
+                  </orderRequest>
+                  <orderRequest>
+                     <cateringType>Platter-Starter</cateringType>
+                     <id>10684</id>
+                     <orSelectionList/>
+                     <title>Assorted wrap platter</title>
+                  </orderRequest>
+               </orList>
+               <rank>6</rank>
+            </orderRequestCategory>
+            <orderRequestCategory>
+               <cateringCategory>Breakfast</cateringCategory>
+               <id>2</id>
+               <orList>
+                  <orderRequest>
+                     <cateringType>Breakfast</cateringType>
+                     <id>10687</id>
+                     <orSelectionList/>
+                     <title>American pancakes with crispy bacon and maple syrup</title>
+                  </orderRequest>
+               </orList>
+               <rank>13</rank>
+            </orderRequestCategory>
+         </orCategoryList>
+         <serviceProviderId>131881</serviceProviderId>
+         <supplierName>Absolute Taste</supplierName>
+        <supplierDisplayName>VistaJet VIP catering</supplierDisplayName>
+      </orderRequestSupplier>
+   </orSupplierList>
+</cateringModuleDetail>

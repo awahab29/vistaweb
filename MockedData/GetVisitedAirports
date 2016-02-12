@@ -1,0 +1,51 @@
+<listOfAirports>
+    <airport>
+        <id>2801</id>
+        <icao>UUWW</icao>
+        <iata>VKO</iata>
+        <iso3>RUS</iso3>
+        <name>VNUKOVO</name>
+        <iso2>RU-MOS</iso2>
+        <city>MOSCOW</city>
+        <country>RUSSIA</country>
+        <latitude>37.273056</latitude>
+        <longitude>55.599167</longitude>
+        <itineraryAirportName>Vnukovo UUWW</itineraryAirportName>
+        <timezones>
+            <timezone>
+                <dstUtcOffset>0</dstUtcOffset>
+                <effectiveFromTimeUtc>2015-03-27T00:00:00+05:00</effectiveFromTimeUtc>
+                <effectiveToTimeUtc>2016-03-26T00:00:00+05:00</effectiveToTimeUtc>
+                <standardUtcOffsetMinutes>180</standardUtcOffsetMinutes>
+            </timezone>
+        </timezones>
+        <airportCount>1645</airportCount>
+        <lastUpdatedTime>1345317573342</lastUpdatedTime>
+    </airport>
+    <airport>
+        <id>1773</id>
+        <icao>LFMN</icao>
+        <iata>NCE</iata>
+        <iso3>FRA</iso3>
+        <name>NICE/COTE D'AZUR</name>
+        <iso2>FR</iso2>
+        <city>NICE/COTE D'AZUR</city>
+        <country>FRANCE</country>
+        <latitude>7.215</latitude>
+        <longitude>43.665278</longitude>
+        <itineraryAirportName>Nice/Cote D'Azur LFMN</itineraryAirportName>
+        <timezones>
+            <timezone>
+                <dstFromTimeUtc>2015-03-29T03:00:00+05:00</dstFromTimeUtc>
+                <dstToTimeUtc>2015-10-25T03:00:00+05:00</dstToTimeUtc>
+                <dstUtcOffset>120</dstUtcOffset>
+                <effectiveFromTimeUtc>2015-01-01T00:00:00+05:00</effectiveFromTimeUtc>
+                <effectiveToTimeUtc>2016-01-01T00:00:00+05:00</effectiveToTimeUtc>
+                <standardUtcOffsetMinutes>60</standardUtcOffsetMinutes>
+            </timezone>
+        </timezones>
+        <airportCount>869</airportCount>
+        <lastUpdatedTime>1345317573342</lastUpdatedTime>
+    </airport>
+    <hasMore>false</hasMore>
+</listOfAirports>

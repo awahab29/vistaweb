@@ -18,6 +18,8 @@ import AuthorizedView from './components/AuthorizedView'
 import AppPage  from './pages/AppPage';
 import DateTime from './components/DateTimePicker.js'
 import BookAFlightForm from './components/BookAFlightForm'
+import VJInfo from './components/VJInfo'
+import DetailInfo from './components/DetailInfo'
 
 const Routes = (<Router>
   <Route path="/" component={AppPage}>
@@ -34,7 +36,8 @@ const Routes = (<Router>
     <Route path="auth" component={AuthorizedView}/>
     <Route path="date-time" component={DateTime}/>
     <Route path="baf" component={BookAFlightForm}/>
-
+    <Route path="vjInfo" component={VJInfo}/>
+    <Route path="detailInfo" component={DetailInfo}/>
   </Route>
 </Router>);
 

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<itinerariesResponse>
+    <itinerary>
+        <orderLegId>156390</orderLegId>
+        <orderStatus>Unconfirmed</orderStatus>
+        <orderType>Program</orderType>
+        <orderCreatedTime>2015-07-29T10:58:44.323+01:00</orderCreatedTime>
+        <legs>
+            <leg>
+                <legId>497142</legId>
+                <flightLegExtIdentifier/>
+                <arrivalAirportId>699</arrivalAirportId>
+                <arrivalAirportName>FARNBOROUGH</arrivalAirportName>
+                <arrivalAirportCity>FARNBOROUGH</arrivalAirportCity>
+                <departureAirportId>2175</departureAirportId>
+                <departureAirportName>LUQA</departureAirportName>
+                <departureAirportCity>MALTA</departureAirportCity>
+                <departureAirportTimeLocal>2015-10-29T08:00:00Z</departureAirportTimeLocal>
+                <departureAirportTimeUTC>2015-10-29T07:00:00Z</departureAirportTimeUTC>
+                <arrivalAirportTimeLocal>2015-10-29T14:55:00Z</arrivalAirportTimeLocal>
+                <arrivalAirportTimeUTC>2015-10-29T09:55:00Z</arrivalAirportTimeUTC>
+                <defaultDurationMinutes>175</defaultDurationMinutes>
+                <aircraftTypeName>Global XRS/6000</aircraftTypeName>
+                <requestedAircraftTypeName>Global 6000</requestedAircraftTypeName>
+                <aircraftTailNumber>9H-VJA</aircraftTailNumber>
+                <numberOfPassenger>10</numberOfPassenger>
+                <legStatus>Unconfirmed</legStatus>
+                <fboDetails>
+                    <handlingAgentName>DC Aviation LTD</handlingAgentName>
+                    <handlingAgentPhoneNumber>+ 466 44 416114</handlingAgentPhoneNumber>
+                    <airportId>2175</airportId>
+                </fboDetails>
+                <fboDetails>
+                    <handlingAgentName>Tag Aviation</handlingAgentName>
+                    <handlingAgentPhoneNumber>+44 4464 411 004</handlingAgentPhoneNumber>
+                    <airportId>699</airportId>
+                </fboDetails>
+                <passengersInfo>
+                    <passengerId>66401</passengerId>
+                    <isApproved>false</isApproved> <!-- if passenger is existing and not approved (not linked with leg) -->
+                    <passengerFirstName>BRUCE</passengerFirstName>
+                    <passengerLastName>LEE</passengerLastName>
+                    <email>bruce@asd.com</email>
+                    <dateOfBirth>1999-08-11T22:49:25+01:00</dateOfBirth>
+                    <nationality>Pakistani</nationality>
+                    <passportIssuedByCountry>MALI</passportIssuedByCountry>
+                    <passportId>77039</passportId>
+                    <passportNumber>ajsdaszxczxa</passportNumber>
+                    <expireDate>2023-08-11T01:00:00+01:00</expireDate>
+                    <leadPassenger>false</leadPassenger>
+                    <passportIssuedByCountry>Pakistan</passportIssuedByCountry>
+                </passengersInfo>
+                <passengersInfo>
+                    <passengerId>66402</passengerId>
+                    <isApproved>true</isApproved> <!-- if passenger is existing and approved (linked with leg) as well from GV Request framework -->
+                    <passengerFirstName>GRAY</passengerFirstName>
+                    <passengerLastName>HAT</passengerLastName>
+                    <email>gray@hat.com</email>
+                    <dateOfBirth>2013-08-11T23:07:31+01:00</dateOfBirth>
+                    <nationality>American</nationality>
+                    <passportIssuedByCountry>MALI</passportIssuedByCountry>
+                    <passportId>77040</passportId>
+                    <passportNumber>zxcasdqwe</passportNumber>
+                    <expireDate>2018-08-11T01:00:00+01:00</expireDate>
+                    <leadPassenger>false</leadPassenger>
+                </passengersInfo>
+                <otherServices>
+                    <serviceId>4</serviceId>
+                    <title>VIP Lounge</title>
+                    <status>Under Review</status>
+                    <onDeparture>true</onDeparture>
+                </otherServices>
+                <transportSummaries>
+                    <transportServiceId>146861</transportServiceId>
+                    <transportServiceTitle>Water taxis</transportServiceTitle>
+                    <provider>Medavia Svcs Co Ltd</provider>
+                    <airport>LMML</airport>
+                    <transportServiceStatus>New</transportServiceStatus>
+                    <transportPictureUrl>https://webservicetest.vistajet.com/extranetServices/1.1/files/getfile?fileKey=service_type/53/icon-other-services-water-transport2x.png</transportPictureUrl>
+                    <transportServiceExternalName>Water taxis</transportServiceExternalName>
+                </transportSummaries>
+                <financialInfo/>
+                <operationalNotes>This is ops notes</operationalNotes>
+                <version>1</version> <!-- For the legs that are under review, tells how many times a leg is updated by cma user -->
+            </leg>
+            <leg>
+                <flightLegExtIdentifier>9F52D6E7-7096-4B5E-892F-1C593828E1E2</flightLegExtIdentifier>
+                <arrivalAirportId>2175</arrivalAirportId>
+                <departureAirportId>699</departureAirportId>
+                <departureAirportTimeLocal>2015-11-05T19:00:00Z</departureAirportTimeLocal>
+                <arrivalAirportTimeLocal>2015-11-06T03:55:00Z</arrivalAirportTimeLocal>
+                <aircraftTypeName>GLEX</aircraftTypeName>
+                <requestedAircraftTypeName>GLEX</requestedAircraftTypeName>
+                <numberOfPassenger>10</numberOfPassenger>
+                <legStatus>Under Review</legStatus>
+                <passengersInfo>
+                    <passengerId>36877</passengerId>
+                    <isApproved>false</isApproved>
+                    <passengerFirstName>Emily</passengerFirstName>
+                    <passengerLastName>Bell</passengerLastName>
+                </passengersInfo>
+                <financialInfo/>
+                <operationalNotes>This is ops notes</operationalNotes>
+                <version>0</version> <!-- For the legs that are under review, tells how many times a leg is updated by cma user -->
+            </leg>
+        </legs>
+    </itinerary>
+</itinerariesResponse>

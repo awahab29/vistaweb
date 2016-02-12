@@ -1,0 +1,22 @@
+<passenger>
+    <passengerId>65449</passengerId>
+    <firstName>NA</firstName>
+    <lastName>NA</lastName>
+    <emailAddresses>
+        <id>3080675</id>
+        <emailAddress>NA</emailAddress>
+    </emailAddresses>
+    <phoneNumbers>
+        <id>3074560</id>
+        <phoneNumber>+9212345678</phoneNumber>
+    </phoneNumbers>
+    <passports>
+        <passportId>103283</passportId>
+        <visa>false</visa>
+        <expiry>2022-11-18T00:00:00Z</expiry>
+        <issuedOnDate>2015-11-09T00:00:00Z</issuedOnDate>
+        <passportCountry>NA</passportCountry>
+        <passportNumber>12345</passportNumber>
+        <passportIssuedByCountry>NA</passportIssuedByCountry>
+    </passports>
+</passenger>

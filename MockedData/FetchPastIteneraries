@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<itinerariesResponse>
+    <itinerary>
+        <orderLegId>156642</orderLegId>
+        <orderStatus>Confirmed</orderStatus>
+        <orderType>Program</orderType>
+        <orderCreatedTime>2015-08-21T05:52:34.500+01:00</orderCreatedTime>
+        <legs>
+            <leg>
+                <legId>499014</legId>
+                <flightLegExtIdentifier>59ABA985-9DDA-4B5F-B9E7-998A0DB038B9</flightLegExtIdentifier>
+                <arrivalAirportId>2175</arrivalAirportId>
+                <departureAirportId>2502</departureAirportId>
+                <departureAirportTimeLocal>2015-11-10T01:10:00Z</departureAirportTimeLocal>
+                <departureAirportTimeUTC>2015-11-09T20:10:00Z</departureAirportTimeUTC>
+                <arrivalAirportTimeLocal>2015-11-10T03:30:00Z</arrivalAirportTimeLocal>
+                <arrivalAirportTimeUTC>2015-11-10T02:30:00Z</arrivalAirportTimeUTC>
+                <legStatus>Confirmed</legStatus>
+                <version>0</version>
+                <defaultDurationMinutes>400</defaultDurationMinutes>
+                <aircraftTypeName>Global XRS/6000</aircraftTypeName>
+                <requestedAircraftTypeName>Challenger 605</requestedAircraftTypeName>
+                <aircraftTailNumber>9H-VJE</aircraftTailNumber>
+                <numberOfPassenger>4</numberOfPassenger>
+                <leadPassengerName>Abdulrehman Hamed S Alharkan</leadPassengerName>
+            </leg>
+        </legs>
+    </itinerary>
+    <itinerary>
+        <orderLegId>156692</orderLegId>
+        <orderStatus>Unconfirmed</orderStatus>
+        <orderType>Program</orderType>
+        <orderCreatedTime>2015-08-27T05:59:18.790+01:00</orderCreatedTime>
+        <legs>
+            <leg>
+                <legId>497502</legId>
+                <flightLegExtIdentifier>24B9F63C-D14B-44F2-A49E-E25CB9A25C78</flightLegExtIdentifier>
+                <arrivalAirportId>2497</arrivalAirportId>
+                <departureAirportId>2502</departureAirportId>
+                <departureAirportTimeLocal>2015-08-27T14:10:00+01:00</departureAirportTimeLocal>
+                <departureAirportTimeUTC>2015-08-27T09:10:00+01:00</departureAirportTimeUTC>
+                <arrivalAirportTimeLocal>2015-08-27T15:00:00+01:00</arrivalAirportTimeLocal>
+                <arrivalAirportTimeUTC>2015-08-27T11:00:00+01:00</arrivalAirportTimeUTC>
+                <legStatus>Unconfirmed</legStatus>
+                <version>0</version>
+                <defaultDurationMinutes>400</defaultDurationMinutes>
+                <aircraftTypeName>Global XRS/6000</aircraftTypeName>
+                <requestedAircraftTypeName>Challenger 605</requestedAircraftTypeName>
+                <aircraftTailNumber>9H-VJE</aircraftTailNumber>
+                <numberOfPassenger>4</numberOfPassenger>
+            </leg>
+        </legs>
+    </itinerary>
+    <itinerary>
+        <orderLegId>156693</orderLegId>
+        <orderStatus>Unconfirmed</orderStatus>
+        <orderType>Program</orderType>
+        <orderCreatedTime>2015-08-27T07:01:04.035+01:00</orderCreatedTime>
+        <legs>
+            <leg>
+                <legId>499091</legId>
+                <flightLegExtIdentifier>52807742-FEBB-42D0-903B-2356BA0503D4</flightLegExtIdentifier>
+                <arrivalAirportId>5621</arrivalAirportId>
+                <departureAirportId>2813</departureAirportId>
+                <departureAirportTimeLocal>2015-11-05T19:20:00Z</departureAirportTimeLocal>
+                <departureAirportTimeUTC>2015-11-05T13:50:00Z</departureAirportTimeUTC>
+                <arrivalAirportTimeLocal>2015-11-05T23:25:00Z</arrivalAirportTimeLocal>
+                <arrivalAirportTimeUTC>2015-11-05T22:25:00Z</arrivalAirportTimeUTC>
+                <legStatus>Confirmed</legStatus>
+                <version>0</version>
+                <defaultDurationMinutes>400</defaultDurationMinutes>
+                <aircraftTypeName>Global XRS/6000</aircraftTypeName>
+                <requestedAircraftTypeName>Challenger 605</requestedAircraftTypeName>
+                <aircraftTailNumber>9H-VJE</aircraftTailNumber>
+                <numberOfPassenger>4</numberOfPassenger>
+                <leadPassengerName>Abdulrehman Hamed S Alharkan</leadPassengerName>
+            </leg>
+        </legs>
+    </itinerary>
+    <itinerary>
+        <orderLegId>156742</orderLegId>
+        <orderStatus>Unconfirmed</orderStatus>
+        <orderType>Program</orderType>
+        <orderCreatedTime>2015-08-27T12:15:18.407+01:00</orderCreatedTime>
+        <legs>
+            <leg>
+                <legId>499090</legId>
+                <flightLegExtIdentifier>ACAAE662-6368-44A8-814E-9E908F76B6EC</flightLegExtIdentifier>
+                <arrivalAirportId>2813</arrivalAirportId>
+                <departureAirportId>6231</departureAirportId>
+                <departureAirportTimeLocal>2015-11-05T19:20:00Z</departureAirportTimeLocal>
+                <departureAirportTimeUTC>2015-11-05T18:20:00Z</departureAirportTimeUTC>
+                <arrivalAirportTimeLocal>2015-11-06T08:40:00Z</arrivalAirportTimeLocal>
+                <arrivalAirportTimeUTC>2015-11-06T03:10:00Z</arrivalAirportTimeUTC>
+                <legStatus>Confirmed</legStatus>
+                <version>0</version>
+                <defaultDurationMinutes>400</defaultDurationMinutes>
+                <aircraftTypeName>Global XRS/6000</aircraftTypeName>
+                <requestedAircraftTypeName>Challenger 605</requestedAircraftTypeName>
+                <aircraftTailNumber>9H-VJE</aircraftTailNumber>
+                <numberOfPassenger>4</numberOfPassenger>
+            </leg>
+        </legs>
+    </itinerary>
+</itinerariesResponse>

@@ -1,0 +1,6 @@
+<!-- response payload for remaining flight hours -->
+<remainingFlightHours>
+   <totalHoursForContractualYear> <!-- outcome a positive real value (if was calculated), otherwise return -1 --> </totalHoursForContractualYear>
+   <totalHoursCarriedOverFromPreviousYear> <!-- outcome a positive real value (if was calculated), otherwise return -1 --> </totalHoursCarriedOverFromPreviousYear>
+   <totalHoursFlownToDate> <!-- outcome a positive real value (if was calculated), otherwise return -1 --> </totalHoursFlownToDate>
+</remainingFlightHours>
